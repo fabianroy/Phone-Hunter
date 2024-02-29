@@ -77,7 +77,7 @@ const showPhoneDetails = (phone) => {
        <p class="mt-3"><span class="font-semibold">Display Size: </span>${phone.mainFeatures.displaySize}</p>
        <p class="mt-3"><span class="font-semibold">Chipset: </span>${phone.mainFeatures.chipSet}</p> 
        <p class="mt-3"><span class="font-semibold">Sensors: </span>${phone.mainFeatures.sensors}</p>
-       <p class="mt-3"><span class="font-semibold">Release Date: </span>${phone.releaseDate}</p>
+       <p class="mt-3"><span class="font-semibold hidden">Release Date: </span>${phone.releaseDate}</p>
        `;
 
     myshow_details_modal.showModal();
